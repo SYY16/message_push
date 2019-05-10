@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lp.mapper.WsMessageMapper">
+  <!-- User的resultMap,column是给数据库列起的别名,它对应property类的属性-->
+  <resultMap id="result_Message_Map" type="com.lp.entity.WsMessage">
+    <id column="id" property="id"/>
+    <result column="content" property="content"/>
+    <result column="sender" property="sender"/>
+    <result column="send_time" property="sendTime"/>
+  </resultMap>
+
+  <!-- 数据库中表名为:user的列名,as前是数据库的列明,as后是列的别名用于映射成实体类中的属性,需要注意的是别名必须与resultMap中的column别名一致 -->
+  <sql id="Message_Column">
+        ws_message.id as id
+        ,ws_message.content as content
+        ,ws_message.sender as sender
+         ,ws_message.send_time as sendTime
+    </sql>
+
+  <!-- 通过User的id获得对应数据库中表的数据对象-->
+  <select id="getMessage" parameterType="java.lang.Integer" resultMap="result_Message_Map">
+    select
+    <include refid="Message_Column" />
+    from ws_message
+    where ws_message.id = #{id}
+  </select>
+
+  <!--  批量插入推送消息  -->
+  <insert id="insertBatchData" parameterType="com.lp.entity.WsMessage">
+    INSERT INTO ws_message(content,sender,send_time)
+    VALUES
+    <foreach collection="list" item="message" separator=",">
+      (#{message.content},#{message.sender},#{message.sendTime})
+    </foreach>
+  </insert>
+
+</mapper>
