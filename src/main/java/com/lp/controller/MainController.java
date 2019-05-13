@@ -38,9 +38,9 @@ public class MainController {
     return message;
   }
     @RequestMapping(value = "index")
-    public String index() {
-        return "/index";
-    }
+  public String index() {
+    return "/index";
+  }
 
   @RequestMapping(value = "room")
   public String room(){

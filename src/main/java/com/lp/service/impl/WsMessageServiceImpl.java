@@ -19,7 +19,7 @@ public class WsMessageServiceImpl implements WsMessageService {
     private WsMessageMapper wsMessageMapper;
 
     @Override
-    public int insertBatchData(List<WsMessage> messageList) {
+    public Integer insertBatchData(List<WsMessage> messageList) {
         return wsMessageMapper.insertBatchData(messageList);
     }
 

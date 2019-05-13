@@ -16,7 +16,7 @@ public interface WsMessageService {
      * @param messageList
      * @return
      */
-    int insertBatchData(List<WsMessage> messageList);
+    Integer insertBatchData(List<WsMessage> messageList);
 
     /**
      * 根据ID查询用户信息

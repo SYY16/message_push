@@ -1,19 +1,5 @@
-08:30:47 [restartedMain] INFO  com.lp.MessagePushApplication - Starting MessagePushApplication on DESKTOP-6IJ8JUP with PID 10904 (started by Admin in E:\soft\idea\IntelliJ IDEA 2019.1.1\message_push)
-08:30:47 [restartedMain] INFO  com.lp.MessagePushApplication - The following profiles are active: dev
-08:30:47 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
-08:30:47 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
-08:30:47 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5ms. Found 0 repository interfaces.
-08:30:47 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9f77a176] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-08:30:47 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
-08:30:47 [restartedMain] INFO  o.a.c.core.StandardService - Starting service [Tomcat]
-08:30:47 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
-08:30:47 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/] - Initializing Spring embedded WebApplicationContext
-08:30:47 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 474 ms
-08:30:47 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
-08:30:48 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
-08:30:48 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
-08:30:48 [restartedMain] WARN  o.s.b.s.r.RedisStarterDeprecationWarningAutoConfiguration - spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
-08:30:48 [restartedMain] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
-08:30:48 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
-08:30:48 [restartedMain] INFO  com.lp.MessagePushApplication - Started MessagePushApplication in 1.07 seconds (JVM running for 257.11)
-08:30:48 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+04:05:14 [http-nio-8080-exec-4] INFO  c.lp.controller.LoginController - [===>user：admin 登录成功!]
+04:05:22 [http-nio-8080-exec-6] INFO  c.lp.controller.LoginController - [===>user：ss 保存redis成功!]
+04:05:22 [http-nio-8080-exec-6] INFO  c.lp.controller.LoginController - [===>user：ss 登录成功!]
+04:05:30 [http-nio-8080-exec-8] INFO  com.lp.config.ChatServer - [===> 接收消息]
+04:05:35 [http-nio-8080-exec-2] INFO  com.lp.config.ChatServer - [===> 接收消息]
