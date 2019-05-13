@@ -2,43 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01fb1251-b348-4646-a49d-b35a04f63b1a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/logFile.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/logFile.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/message_push.iml" beforeDir="false" afterPath="$PROJECT_DIR$/message_push.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lp/config/MyWebSocket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lp/config/MyWebSocket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lp/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lp/controller/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lp/service/WsMessageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lp/service/WsMessageService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lp/service/impl/WsMessageServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lp/service/impl/WsMessageServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/message_push.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lp/MessagePushApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lp/config/ChatServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lp/config/MyWebSocket.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lp/config/TimerTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lp/config/WebSocketConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lp/config/WebSocketServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lp/controller/LoginController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lp/controller/MainController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lp/controller/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lp/entity/WsMessage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lp/entity/WsUser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lp/mapper/WsMessageMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lp/mapper/WsMessageMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lp/mapper/WsUserMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lp/mapper/WsUserMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lp/service/WsMessageService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lp/service/WsUserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lp/service/impl/WsMessageServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lp/service/impl/WsUserServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lp/utils/ExcelUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lp/utils/RedisUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/logback-spring.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/msgPage.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/myMsg.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/room.html" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -55,17 +19,7 @@
     <favorites_list name="message_push" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" column="10" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -224,12 +178,13 @@
             <path>
               <item name="message_push" type="b2602c69:ProjectViewProjectNode" />
               <item name="message_push" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="message_push" type="b2602c69:ProjectViewProjectNode" />
               <item name="message_push" type="462c0819:PsiDirectoryNode" />
-              <item name="log" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -347,7 +302,7 @@
       <workItem from="1557724175373" duration="249000" />
       <workItem from="1557724541681" duration="108000" />
       <workItem from="1557724714937" duration="220000" />
-      <workItem from="1557725213111" duration="1237000" />
+      <workItem from="1557725213111" duration="1531000" />
     </task>
     <task id="LOCAL-00001" summary="初始">
       <created>1557133739392</created>
@@ -411,7 +366,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102946000" />
+    <option name="totallyTimeSpent" value="103240000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -424,7 +379,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49766356" visible="true" weight="0.2813258" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -890,7 +844,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
+        <state relative-caret-position="-428">
           <caret line="3" column="10" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
         </state>
       </provider>
